@@ -1,0 +1,120 @@
+body{
+    background-color: #8C52FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+#weather-container{
+    background-color: rgba(255,255 , 255, 0);
+    min-width: 400px;
+    /* max-height: 90vh; */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 32px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px) ;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h2,label,p{
+    color: #fff;
+    margin: 4px,0;
+}
+
+input{
+    width: calc(100%-16px);
+    padding: 8px;
+    box-sizing: border-box ;
+    border:1px solid white ;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+button{
+    background-color:#debff4 ;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    width:130px;
+    font-size: 15px;
+    height: 40px;
+
+
+}
+
+button:hover{
+    background-color: #8b48d7;
+}
+
+#temp-div p {
+ font-size:50px;
+ text-align: start;
+ margin-bottom: 0px;
+ margin-top: 0px;
+ /* margin-top: 50px; */
+ /* background-color: yellow; */
+
+}
+
+#weather-info{
+    font-size: 30px;
+    margin: 20px;
+}
+
+#weather-icon{
+    width: 200px;
+    height: 200px;
+    margin: 40px ;
+    margin-bottom: 0;
+    /* display:none; so that weather icon is displayed only when we search */
+
+}
+
+#hourly-forecast{
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly-item{
+    flex:0 0 auto;
+    width : 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+
+}
+
+.hourly-item img{
+    width:30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#hourly-heading{
+    color: #fff;
+    margin-top: 10px;
+}
+
+@media(min-width:3000px)
+{
+   
+}
+
+
+
